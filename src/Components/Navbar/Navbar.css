@@ -1,0 +1,205 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    width: 20%;
+    height: 50px;
+    text-align: center;
+}
+
+.logo img {
+    height: 47px
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 70%;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+}
+
+nav ul li a:hover {
+    color: blue;
+    transition: all 0.5s ease 0s;
+}
+
+nav .twoButtons {
+    width: 30%;
+    text-align: center;
+}
+
+button {
+    padding: 0.7rem 1.8rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+.btnLeft {
+    background-color: white;
+    border: 0.5px solid #ccc0c0;
+    transition: 0.7s ease;
+}
+
+.btnLeft a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    transition: 0.7s ease;
+}
+
+.btnLeft:hover {
+    background-color: blue;
+    color: white;
+}
+
+.btnLeft:hover a {
+    color: white;
+}
+
+.btnRight {
+    /*    margin-left: 12px;  */
+    background-color: blue;
+    font-family: 'Rubik';
+    font-style: normal;
+    border: none;
+    transition: 0.7s ease;
+}
+
+.btnRight a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.btnRight:hover,
+.btnRight:focus,
+.btnRight:active {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.wrapper .nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .wrapper .logo {
+        position: fixed;
+    }
+    .wrapper .nav-btn {
+        visibility: visible;
+        opacity: 1;
+        position: absolute;
+        top: 1rem;
+        right: 2rem;
+        color: black;
+    }
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: flex-start;
+        gap: 2.5rem;
+        background-color: rgb(255 242 229);
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+    .wrapper .responsive_nav {
+        transform: none;
+    }
+    nav .nav-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        color: black;
+    }
+    nav ul {
+        flex-direction: column;
+        margin-top: 75px;
+        width: 100%;
+        text-align: left;
+    }
+    nav ul li {
+        width: 100%;
+        border-bottom: 1px solid #0000002e;
+    }
+    nav ul li a {
+        font-size: 1.3rem;
+        line-height: 3rem;
+        color: black;
+        transition: 0.7s ease;
+    }
+    nav ul li a:hover {
+        color: blue;
+    }
+    .logo {
+        height: 50px;
+        text-align: center;
+        width: 100%;
+        text-align: left;
+        text-indent: 40px;
+    }
+    nav .twoButtons {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 35px;
+    }
+}

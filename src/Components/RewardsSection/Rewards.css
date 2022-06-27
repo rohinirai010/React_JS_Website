@@ -1,0 +1,150 @@
+.rewardsSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*   margin-left: 82px; */
+    margin-top: 88px;
+    gap: 178px;
+}
+
+.leftRewardsSection {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.circle {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: 5px solid #254FE4;
+}
+
+.Vline {
+    border-left: 5px solid #F1F4FE;
+    height: 360px;
+    margin-left: 7px;
+}
+
+.right-leftRewardsSection {
+    /*   margin-left: 40px;   */
+}
+
+.right-leftRewardsSection1 {
+    border: 1px dashed #C4C4C4;
+    border-radius: 10px;
+    margin-top: 32px;
+}
+
+.right-leftRewardsSection span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    color: #23C380;
+    text-transform: uppercase;
+}
+
+.right-leftRewardsSection h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    margin-top: 9px;
+}
+
+.right-leftRewardsSection p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 5px;
+    color: #667085;
+    margin-bottom: 16px;
+}
+
+.right-leftRewardsSection1 button {
+    margin-top: 20px;
+}
+
+.right-leftRewardsSection1 ul {
+    margin-top: 22px;
+    /*   margin-left: 35px;  */
+    font-size: 14px;
+    color: #667085;
+    list-style: none;
+    margin-bottom: 33px;
+}
+
+.right-leftRewardsSection1 ul li {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.rightRewardsSection img {
+    width: 480px;
+    height: 280px;
+    padding: 20px;
+    margin-top: 138px;
+}
+
+.checkIcon {
+    /*  margin-right: 12px;   */
+    color: #FF6000;
+    margin-top: 3px;
+}
+
+.rewardsSection1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    /*    margin-left: 82px;  */
+    margin-top: 100px;
+    /*   margin-right: 120px;   */
+    gap: 178px;
+    margin-bottom: 120px;
+}
+
+.rightRewardsSection1 img {
+    margin-top: 92px;
+    width: 440px;
+}
+
+@media (max-width: 768px) {
+    .rewardsSection {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .rewardsSection1 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+        margin-bottom: 65px;
+    }
+    .rightRewardsSection img {
+        margin-top: -35px;
+        /*   margin-right: 241px;   */
+        margin-bottom: 66px;
+    }
+    .rightRewardsSection1 img {
+        /*    margin-right: 100px;   */
+        gap: 10px;
+        margin-top: 0px;
+    }
+    .right-leftRewardsSection {
+        /*   margin-right: 85px;    */
+    }
+}

@@ -1,0 +1,54 @@
+.GiftCard {
+    width: 100%;
+    height: auto;
+    padding: 5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.GiftCardsContent {
+    width: 33.33%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.GiftCardsContent img {
+    width: 453px;
+    height: 252px;
+}
+
+.GiftCardsContent h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 30px;
+}
+
+.GiftCardsContent p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    margin-top: 8px;
+    color: #667085;
+}
+
+@media (max-width: 768px) {
+    .GiftCard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 65px;
+    }
+    .GiftCardsContent {
+        width: 100%;
+    }
+    .GiftCardsContent img {
+        width: 100%;
+    }
+}

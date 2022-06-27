@@ -1,0 +1,53 @@
+.OurTeamCard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1.35321px solid rgba(22, 28, 45, 0.5);
+    border-radius: 13.5321px;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: 0.9s ease;
+}
+
+.OurTeamCard:hover {
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    transform: scale(1.1);
+    background-color: #0b1c56;
+}
+
+.OurTeamCard h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 13px;
+    transition: 0.7s ease;
+}
+
+.OurTeamCard:hover h3 {
+    color: white;
+}
+
+.OurTeamCard p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 18px;
+    color: #667085;
+    transition: 0.7s ease;
+    padding: 0px 25px;
+}
+
+.OurTeamCard:hover p {
+    color: rgba(241, 237, 237, 0.819);
+}
+
+.OurTeamCard img {
+    width: 55px;
+    margin: 0 auto;
+    margin-top: 22px;
+    margin-bottom: 12px;
+}

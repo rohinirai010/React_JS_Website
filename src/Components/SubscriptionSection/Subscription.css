@@ -1,0 +1,165 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 88px;
+    margin-bottom: 80px;
+    gap: 100px;
+}
+
+.card {
+    background-color: white;
+    width: 530px;
+    height: 330px;
+    margin: 25px;
+}
+
+.card-image img {
+    width: 536px;
+}
+
+.card-image1 img {
+    width: 530px;
+    margin-top: -57px;
+}
+
+.FrameContent {
+    text-align: center;
+    margin-top: -264px;
+}
+
+.FrameContent h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 7px;
+    font-size: 33px;
+    color: white;
+}
+
+.FrameContent p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #c6bdbd;
+    margin-top: 12px;
+    line-height: 21px;
+}
+
+button {
+    padding: 0.7rem 1.8rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+.btnDemo {
+    background-color: #FF6000;
+    margin-top: 35px;
+    width: 200px;
+    transition: 0.7s ease;
+    border: none;
+}
+
+.btnDemo img {
+    width: 32px;
+}
+
+.btnDemo h3 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.btnDemo a {
+    display: flex;
+    flex-direction: row;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+
+.btnDemo:hover,
+.btnDemo:focus,
+.btnDemo:active {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.FrameContentRight {
+    text-align: center;
+    margin-top: -264px;
+}
+
+.FrameContentRight h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 92px;
+    font-size: 28px;
+    color: black;
+}
+
+.FrameContentRight p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #161C2D;
+    margin-top: 7px;
+}
+
+form {
+    max-width: 70rem;
+    margin: 2rem auto;
+    max-width: 70rem;
+    display: flex;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailInput {
+    background: #FFFFFF;
+    border: 1px solid rgb(167 170 178 / 80%);
+    border-radius: 15px;
+    width: 282px;
+    height: 47px;
+}
+
+.submitInput {
+    color: white;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    background: #23C480;
+    border-radius: 15px;
+    width: 112px;
+    height: 47px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    border: none;
+}
+
+.submitInput:hover {
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    transform: scale(0.9);
+}
+
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-image img {}
+}
