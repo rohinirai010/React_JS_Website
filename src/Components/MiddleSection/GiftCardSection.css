@@ -37,7 +37,7 @@
     color: #667085;
 }
 
-@media only screen and (max-width: 940px) {
+@media (max-width: 768px) {
     .GiftCard {
         display: flex;
         flex-direction: column;
@@ -53,9 +53,7 @@
     }
 }
 
-
-/*
-@media only screen and (min-width: 940px) {
+@media (max-width: 1024px) {
     .GiftCard {
         gap: 36px;
         justify-content: center;
@@ -68,4 +66,3 @@
         font-size: 1.3rem;
     }
 }
-*/

@@ -95,7 +95,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 940px) {
+@media (max-width: 768px) {
     .accordionFaqSection .parent-tab .content p {
         font-size: 12px;
     }

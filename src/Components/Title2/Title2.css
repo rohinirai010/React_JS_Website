@@ -18,10 +18,7 @@
     color: #667085;
 }
 
-
-/*
-
-@media only screen and (min-width: 940px) {
+@media (max-width: 1024px) {
     .title2Section {
         margin-top: 70px;
     }
@@ -32,5 +29,3 @@
         font-size: 12px;
     }
 }
-
-*/

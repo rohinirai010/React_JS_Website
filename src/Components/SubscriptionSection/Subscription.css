@@ -154,7 +154,7 @@ form {
     transform: scale(0.9);
 }
 
-@media only screen and (max-width: 940px) {
+@media (max-width: 768px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -164,9 +164,7 @@ form {
     .card-image img {}
 }
 
-
-/*
-@media only screen and (min-width: 940px) {
+@media (max-width: 1024px) {
     .container {
         gap: 0;
     }
@@ -192,5 +190,3 @@ form {
         margin-top: 0;
     }
 }
-
-*/
