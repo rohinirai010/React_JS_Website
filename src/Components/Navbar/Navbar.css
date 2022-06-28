@@ -128,7 +128,7 @@ button {
     text-align: center;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 940px) {
     .wrapper {
         display: flex;
         flex-direction: column;
@@ -204,7 +204,9 @@ button {
     }
 }
 
-@media (max-width: 1024px) {
+
+/*
+@media only screen and (min-width: 940px) {
     .logo {
         width: 10%;
     }
@@ -227,3 +229,5 @@ button {
         font-size: 12px;
     }
 }
+
+*/

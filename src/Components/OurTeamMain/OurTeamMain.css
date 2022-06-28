@@ -37,7 +37,7 @@
     /*  margin-left: 492px; */
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 940px) {
     .OurTeamMainSection .MidSec {
         gap: 32px;
     }
@@ -54,7 +54,9 @@
     }
 }
 
-@media (max-width: 1024px) {
+
+/*
+@media only screen and (min-width: 940px) {
     .OurTeamMainSection .MidSec {
         gap: 428px;
     }
@@ -70,3 +72,5 @@
         gap: 32px;
     }
 }
+
+*/
