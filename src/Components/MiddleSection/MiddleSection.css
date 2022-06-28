@@ -108,3 +108,18 @@ button {
         font-size: 15px;
     }
 }
+
+@media (max-width: 1024px) {
+    .MidSec {
+        gap: 395px;
+    }
+    .MidSecTitle {
+        font-size: 22px;
+    }
+    .MidSecTitle span {
+        font-size: 16px;
+    }
+    .midBtn {
+        width: 16%;
+    }
+}

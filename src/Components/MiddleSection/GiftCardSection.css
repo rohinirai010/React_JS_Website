@@ -52,3 +52,17 @@
         width: 100%;
     }
 }
+
+@media (max-width: 1024px) {
+    .GiftCard {
+        gap: 36px;
+        justify-content: center;
+    }
+    .GiftCardsContent img {
+        width: 303px;
+        height: 195px;
+    }
+    .GiftCardsContent h2 {
+        font-size: 1.3rem;
+    }
+}

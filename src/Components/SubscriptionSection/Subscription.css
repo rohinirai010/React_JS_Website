@@ -163,3 +163,30 @@ form {
     }
     .card-image img {}
 }
+
+@media (max-width: 1024px) {
+    .container {
+        gap: 0;
+    }
+    .card {
+        width: 461px;
+        height: 244px;
+        margin: 0;
+    }
+    .card-image img {
+        width: 430px;
+    }
+    .card-image1 img {
+        width: 443px;
+        margin-top: -57px;
+    }
+    .FrameContent {
+        margin-top: -208px;
+    }
+    .FrameContent h2 {
+        font-size: 24px;
+    }
+    .FrameContent p {
+        margin-top: 0;
+    }
+}

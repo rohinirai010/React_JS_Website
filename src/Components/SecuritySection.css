@@ -21,3 +21,16 @@
         gap: 130px;
     }
 }
+
+@media (max-width: 1024px) {
+    .rewardsSectionSecurity {
+        gap: 43px;
+        padding-left: 46px;
+        padding-right: 46px;
+    }
+    .rightRewardsSectionSecurity img {
+        width: 97%;
+        height: 335px;
+        margin-top: -21px;
+    }
+}

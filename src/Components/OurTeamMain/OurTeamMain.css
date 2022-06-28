@@ -53,3 +53,20 @@
         flex-direction: column;
     }
 }
+
+@media (max-width: 1024px) {
+    .OurTeamMainSection .MidSec {
+        gap: 428px;
+    }
+    .ourTeamSection {
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+    .ourTeamSectionTop {
+        gap: 32px;
+        padding-bottom: 32px;
+    }
+    .ourTeamSectionBottom {
+        gap: 32px;
+    }
+}

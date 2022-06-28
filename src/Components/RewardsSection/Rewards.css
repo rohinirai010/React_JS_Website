@@ -148,3 +148,24 @@
         /*   margin-right: 85px;    */
     }
 }
+
+@media (max-width: 1024px) {
+    .rewardsSection {
+        padding: 22px;
+        gap: 0;
+    }
+    .leftRewardsSection {
+        width: 502px;
+    }
+    .rightRewardsSection img {
+        width: 438px;
+        height: 250px;
+        padding: 20px;
+    }
+    .rewardsSection1 {
+        gap: 18px;
+    }
+    .rightRewardsSection1 img {
+        width: 400px;
+    }
+}

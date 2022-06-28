@@ -17,3 +17,15 @@
     font-size: 15px;
     color: #667085;
 }
+
+@media (max-width: 1024px) {
+    .title2Section {
+        margin-top: 70px;
+    }
+    .title2Section h2 {
+        font-size: 22px;
+    }
+    .title2Section p {
+        font-size: 12px;
+    }
+}
