@@ -18,7 +18,7 @@
     color: #667085;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-width:768x) {
     .title2Section {
         margin-top: 70px;
     }

@@ -80,7 +80,7 @@ button {
     transform: scale(1.1);
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .MidSec {
         display: flex;
         flex-direction: column;
@@ -109,7 +109,7 @@ button {
     }
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-width: 768px) {
     .MidSec {
         gap: 395px;
     }

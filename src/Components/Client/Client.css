@@ -17,7 +17,7 @@
         padding: 30px 37px;
     }
     
-    @media (max-width: 768px) {
+    @media screen and (max-width: 768px) {
         .clientSection {
             display: flex;
             flex-direction: column;

@@ -118,7 +118,7 @@
     width: 440px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .rewardsSection {
         display: flex;
         flex-direction: column-reverse;
@@ -149,7 +149,7 @@
     }
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-width:768px) {
     .rewardsSection {
         padding: 22px;
         gap: 0;
