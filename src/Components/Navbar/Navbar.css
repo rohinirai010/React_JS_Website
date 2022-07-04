@@ -111,7 +111,7 @@ button {
 .btnRight:hover,
 .btnRight:focus,
 .btnRight:active {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
