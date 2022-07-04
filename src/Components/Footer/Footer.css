@@ -95,7 +95,7 @@
 }
 
 .box a:hover {
-    color: blue;
+    color: #ff6000;
     transition: all 0.5s ease 0s;
 }
 
@@ -127,7 +127,7 @@
 }
 
 .footer-bottom a:hover {
-    color: blue;
+    color: #ff6000;
 }
 
 .footer-bottom p {

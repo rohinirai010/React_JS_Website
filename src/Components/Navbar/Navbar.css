@@ -47,11 +47,11 @@ nav ul li a {
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
+    transition: 0.5s ease;
 }
 
 nav ul li a:hover {
-    color: blue;
-    transition: all 0.5s ease 0s;
+    color: #ff6000;
 }
 
 nav .twoButtons {
@@ -84,6 +84,7 @@ button {
 .btnLeft:hover {
     background-color: blue;
     color: white;
+    border: none;
 }
 
 .btnLeft:hover a {
@@ -110,7 +111,7 @@ button {
 .btnRight:hover,
 .btnRight:focus,
 .btnRight:active {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }

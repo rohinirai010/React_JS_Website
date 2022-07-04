@@ -33,7 +33,7 @@
 }
 
 .right-leftRewardsSection1 {
-    border: 1px dashed #C4C4C4;
+    border: 2.3px dashed #C4C4C4;
     border-radius: 10px;
     margin-top: 32px;
 }
@@ -67,11 +67,12 @@
 
 .right-leftRewardsSection1 button {
     margin-top: 20px;
+    margin-left: 25px;
 }
 
 .right-leftRewardsSection1 ul {
     margin-top: 22px;
-    /*   margin-left: 35px;  */
+    margin-left: 25px;
     font-size: 14px;
     color: #667085;
     list-style: none;

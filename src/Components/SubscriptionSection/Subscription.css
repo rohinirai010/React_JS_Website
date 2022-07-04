@@ -129,8 +129,10 @@ form {
     background: #FFFFFF;
     border: 1px solid rgb(167 170 178 / 80%);
     border-radius: 15px;
-    width: 282px;
+    width: 80%;
     height: 47px;
+    height: 47px;
+    border-radius: 0.5rem;
 }
 
 .submitInput {
@@ -146,6 +148,10 @@ form {
     -webkit-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
     border: none;
+    width: 95px;
+    height: 35px;
+    margin-left: -104px;
+    border-radius: 0.5rem;
 }
 
 .submitInput:hover {
