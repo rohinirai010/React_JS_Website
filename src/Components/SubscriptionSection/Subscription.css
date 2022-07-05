@@ -86,7 +86,7 @@ button {
 .btnDemo:hover,
 .btnDemo:focus,
 .btnDemo:active {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
@@ -129,10 +129,10 @@ form {
     background: #FFFFFF;
     border: 1px solid rgb(167 170 178 / 80%);
     border-radius: 15px;
-    width: 80%;
+    width: 81%;
     height: 47px;
     height: 47px;
-    border-radius: 0.5rem;
+    border-radius: 0.6rem;
 }
 
 .submitInput {
@@ -148,29 +148,28 @@ form {
     -webkit-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
     border: none;
-    width: 95px;
+    width: 96px;
     height: 35px;
-    margin-left: -104px;
-    border-radius: 0.5rem;
+    margin-left: -105px;
+    border-radius: 0.6rem;
 }
 
 .submitInput:hover {
     -webkit-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
-    transform: scale(0.9);
+    transform: scale(1.1);
 }
 
-@media screen and (max-width: 768px) and (min-width:768px) {
+@media (max-width: 768px) {
     .container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .card-image img {}
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1023px) {
     .container {
         gap: 0;
     }
@@ -194,5 +193,8 @@ form {
     }
     .FrameContent p {
         margin-top: 0;
+    }
+    .btnDemo .btnDemoImage {
+        width: 32px;
     }
 }

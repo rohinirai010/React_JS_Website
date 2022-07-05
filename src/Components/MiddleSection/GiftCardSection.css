@@ -14,8 +14,8 @@
 }
 
 .GiftCardsContent img {
-    height: 305px;
-    width: 448px;
+    height: 304px;
+    width: 446px
 }
 
 .GiftCardsContent h2 {
@@ -53,7 +53,7 @@
     }
 }
 
-@media screen and (max-width: 1024px) and (min-width: 768px) {
+@media (min-width: 769px) and (max-width: 1023px) {
     .GiftCard {
         gap: 36px;
         justify-content: center;
