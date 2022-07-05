@@ -80,6 +80,28 @@ button {
     transform: scale(1.1);
 }
 
+@media (max-width: 540px) {
+    .MidSec {
+        gap: 20px;
+    }
+    .MidSecTitle {
+        font-size: 25px;
+    }
+    .MidSecTitle span {
+        font-size: 16px;
+    }
+    .midBtn {
+        width: 23%;
+        height: 38px;
+    }
+    .midBtn h3 {
+        font-size: 12px;
+    }
+    .midBtn img {
+        width: 23%;
+    }
+}
+
 @media (max-width: 768px) {
     .MidSec {
         display: flex;

@@ -28,8 +28,9 @@
             margin-bottom: 40px;
         }
         .clientSection img {
+            padding: 10px 29px;
             width: 28%;
-            height: auto;
-            padding: 13px 9px;
+            height: 100px;
+            border: 1px solid #00000014;
         }
     }

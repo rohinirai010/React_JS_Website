@@ -160,6 +160,41 @@ form {
     transform: scale(1.1);
 }
 
+@media (max-width:540px) {
+    .container {
+        margin-bottom: 35px;
+    }
+    .card {
+        margin: 0;
+    }
+    .card-image img {
+        padding: 5px 41px;
+    }
+    .FrameContent {
+        margin-top: -243px;
+    }
+    .btnDemo {
+        height: 48px;
+    }
+    .btnDemo a {
+        align-items: center;
+    }
+    .btnDemo img {
+        width: 28px;
+    }
+    .btnDemo h3 {
+        margin-top: 0;
+    }
+    .card-image1 img {
+        margin-top: -115px;
+        padding: 5px 41px;
+        border-radius: 5px;
+    }
+    .emailInput {
+        width: 68%;
+    }
+}
+
 @media (max-width: 768px) {
     .container {
         display: flex;

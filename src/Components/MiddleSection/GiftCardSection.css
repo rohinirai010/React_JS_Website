@@ -37,6 +37,12 @@
     color: #667085;
 }
 
+@media (max-width:540px) {
+    .GiftCardsContent img {
+        height: 230px;
+    }
+}
+
 @media (max-width: 768px) {
     .GiftCard {
         display: flex;
@@ -49,7 +55,8 @@
         width: 100%;
     }
     .GiftCardsContent img {
-        width: 100%;
+        width: 95%;
+        margin: 0 auto;
     }
 }
 

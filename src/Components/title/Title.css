@@ -99,6 +99,26 @@ h4 {
     margin: 0 auto;
 }
 
+@media (max-width: 540px) {
+    .TitleSection h2 {
+        font-size: 24px;
+        padding: 24px;
+        margin-top: 0;
+    }
+    .btn {
+        width: 169px;
+    }
+    .btn h3 {
+        font-size: 12px;
+    }
+    .btn img {
+        width: 18%;
+    }
+    .mainImage {
+        height: 355px;
+    }
+}
+
 @media (max-width: 768px) {
     .mainImage {
         width: 100%;

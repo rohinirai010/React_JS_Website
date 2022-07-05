@@ -119,6 +119,18 @@
     width: 440px;
 }
 
+@media (max-width:540px) {
+    .rewardsSection {
+        margin-top: 50px;
+    }
+    .rightRewardsSection img {
+        width: 455px;
+    }
+    .leftRewardsSection {
+        padding: 10px 44px;
+    }
+}
+
 @media (max-width: 768px) {
     .rewardsSection {
         display: flex;

@@ -37,6 +37,16 @@
     /*  margin-left: 492px; */
 }
 
+@media (max-width:540px) {
+    .ourTeamSectionTop {
+        gap: 55px;
+        padding-bottom: 55px;
+    }
+    .ourTeamSectionBottom {
+        gap: 55px;
+    }
+}
+
 @media (max-width: 768px) {
     .OurTeamMainSection .MidSec {
         gap: 32px;

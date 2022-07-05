@@ -95,6 +95,12 @@
     letter-spacing: 0.2px;
 }
 
+@media (max-width:540px) {
+    .accordionFaqSection {
+        padding: 10px 45px;
+    }
+}
+
 @media (max-width: 768px) {
     .accordionFaqSection .parent-tab .content p {
         font-size: 12px;
