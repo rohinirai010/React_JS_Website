@@ -21,7 +21,7 @@ nav {
 .logo {
     width: 20%;
     height: 50px;
-    text-align: left;
+    text-align: center;
 }
 
 .logo img {
@@ -55,7 +55,7 @@ nav ul li a:hover {
 
 nav .twoButtons {
     width: 30%;
-    text-align: center;
+    text-align: right;
 }
 
 button {
