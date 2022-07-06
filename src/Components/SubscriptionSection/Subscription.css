@@ -160,51 +160,7 @@ form {
     transform: scale(1.1);
 }
 
-@media (max-width:540px) {
-    .container {
-        margin-bottom: 35px;
-    }
-    .card {
-        margin: 0;
-    }
-    .card-image img {
-        padding: 5px 41px;
-    }
-    .FrameContent {
-        margin-top: -243px;
-    }
-    .btnDemo {
-        height: 48px;
-    }
-    .btnDemo a {
-        align-items: center;
-    }
-    .btnDemo img {
-        width: 28px;
-    }
-    .btnDemo h3 {
-        margin-top: 0;
-    }
-    .card-image1 img {
-        margin-top: -115px;
-        padding: 5px 41px;
-        border-radius: 5px;
-    }
-    .emailInput {
-        width: 68%;
-    }
-}
-
-@media (max-width: 768px) {
-    .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1023px) {
+@media only screen and (max-width: 1024px) {
     .container {
         gap: 0;
     }
@@ -231,5 +187,92 @@ form {
     }
     .btnDemo .btnDemoImage {
         width: 32px;
+    }
+}
+
+@media only screen and (max-width:820px) {
+    .container {
+        gap: 60px
+    }
+    .card {
+        width: 290px;
+    }
+    .card-image img {
+        width: 290px;
+    }
+    .card-image1 img {
+        width: 290px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:540px) {
+    .container {
+        margin-bottom: 35px;
+    }
+    .card {
+        margin: 0;
+        width: 400px;
+    }
+    .card-image img {
+        width: 400px;
+    }
+    .FrameContent {
+        margin-top: -219px;
+    }
+    .btnDemo {
+        height: 48px;
+    }
+    .btnDemo a {
+        align-items: center;
+    }
+    .btnDemo img {
+        width: 28px;
+    }
+    .btnDemo h3 {
+        margin-top: 0;
+    }
+    .card-image1 img {
+        margin-top: -115px;
+        border-radius: 5px;
+        width: 400px;
+    }
+    .emailInput {
+        width: 68%;
+    }
+}
+
+@media only screen and (max-width:407px) {
+    .card {
+        width: 325px;
+    }
+    .card-image img {
+        width: 325px;
+    }
+    .card-image1 img {
+        width: 325px;
+    }
+}
+
+@media only screen and (max-width:280px) {
+    .card {
+        width: 253px;
+    }
+    .card-image img {
+        width: 253px;
+    }
+    .card-image1 img {
+        width: 253px;
+    }
+    .FrameContent {
+        width: 262px;
     }
 }

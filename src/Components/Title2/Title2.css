@@ -18,16 +18,7 @@
     color: #667085;
 }
 
-@media (max-width:540px) {
-    .title2Section h2 {
-        font-size: 22px;
-    }
-    .title2Section p {
-        padding: 8px 29px;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1023px) {
+@media only screen and (max-width: 1024px) {
     .title2Section {
         margin-top: 70px;
     }
@@ -36,5 +27,14 @@
     }
     .title2Section p {
         font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:540px) {
+    .title2Section h2 {
+        font-size: 22px;
+    }
+    .title2Section p {
+        padding: 8px 29px;
     }
 }

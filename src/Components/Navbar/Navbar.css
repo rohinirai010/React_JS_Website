@@ -128,10 +128,90 @@ button {
     text-align: center;
 }
 
+@media only screen and (max-width:1265px) {
+    .btnLeft {
+        font-size: 13px;
+    }
+    .btnRight {
+        font-size: 13px;
+    }
+}
 
-/*----------Mobile phones-------------*/
+@media only screen and (max-width:1155px) {
+    .btnLeft {
+        font-size: 12px;
+    }
+    .btnRight {
+        font-size: 12px;
+    }
+}
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 1080px) {
+    .btnLeft {
+        font-size: 8px;
+    }
+    .btnRight {
+        font-size: 8px;
+    }
+    nav ul {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+    .btnLeft {
+        font-size: 10px;
+    }
+    .btnRight {
+        font-size: 10px;
+    }
+    nav ul {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .logo {
+        text-align: center;
+    }
+    nav {
+        justify-content: space-around;
+        width: 100%;
+    }
+    nav ul {
+        font-size: 13px;
+    }
+    nav .twoButtons {
+        width: 40%;
+        text-align: right;
+    }
+    .btnLeft {
+        font-size: 12px;
+    }
+    .btnRight {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 912px) {
+    .btnLeft {
+        font-size: 10px;
+    }
+    .btnRight {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:820px) {
+    .btnLeft {
+        font-size: 8px;
+    }
+    .btnRight {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
     .wrapper {
         display: flex;
         flex-direction: column;
@@ -205,36 +285,5 @@ button {
         justify-content: center;
         gap: 35px;
         margin-bottom: 40px;
-    }
-}
-
-
-/*-----------Desktop and Laptops-----------*/
-
-@media (min-width: 1024px) {}
-
-
-/*------------Tablets and iPads--------------*/
-
-@media (min-width: 769px) and (max-width: 1023px) {
-    .logo {
-        text-align: center;
-    }
-    nav {
-        justify-content: space-around;
-        width: 100%;
-    }
-    nav ul {
-        font-size: 11px;
-    }
-    nav .twoButtons {
-        width: 40%;
-        text-align: right;
-    }
-    .btnLeft {
-        font-size: 12px;
-    }
-    .btnRight {
-        font-size: 12px;
     }
 }

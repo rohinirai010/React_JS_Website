@@ -92,7 +92,6 @@
 .rightRewardsSection img {
     width: 480px;
     height: 280px;
-    padding: 20px;
     margin-top: 138px;
 }
 
@@ -119,19 +118,40 @@
     width: 440px;
 }
 
-@media (max-width:540px) {
+@media only screen and (max-width:1040px) {
     .rewardsSection {
-        margin-top: 50px;
+        gap: 0px;
     }
     .rightRewardsSection img {
-        width: 455px;
+        width: 370px;
     }
     .leftRewardsSection {
-        padding: 10px 44px;
+        width: 468px;
     }
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
+    .rewardsSection {
+        padding: 22px;
+        gap: 0;
+    }
+    .leftRewardsSection {
+        width: 502px;
+    }
+    .rightRewardsSection img {
+        width: 438px;
+        height: 250px;
+        padding: 20px;
+    }
+    .rewardsSection1 {
+        gap: 18px;
+    }
+    .rightRewardsSection1 img {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
     .rewardsSection {
         display: flex;
         flex-direction: column-reverse;
@@ -162,23 +182,64 @@
     }
 }
 
-@media (min-width: 769px) and (max-width: 1023px) {
+@media only screen and (max-width:540px) {
     .rewardsSection {
-        padding: 22px;
-        gap: 0;
-    }
-    .leftRewardsSection {
-        width: 502px;
+        margin-top: 50px;
     }
     .rightRewardsSection img {
-        width: 438px;
-        height: 250px;
-        padding: 20px;
+        width: 410px;
     }
-    .rewardsSection1 {
-        gap: 18px;
+    .leftRewardsSection {
+        padding: 10px 15px;
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width:448px) {
+    .rightRewardsSection img {
+        width: 368px;
     }
     .rightRewardsSection1 img {
+        width: 368px;
+    }
+    .leftRewardsSection {
         width: 400px;
+        padding: 10px 2px;
+    }
+}
+
+@media only screen and (max-width:407px) {
+    .rightRewardsSection img {
+        width: 314px;
+    }
+    .rightRewardsSection1 img {
+        width: 314px;
+    }
+    .leftRewardsSection {
+        width: 370px;
+    }
+}
+
+@media only screen and (max-width:348px) {
+    .rightRewardsSection img {
+        width: 280px;
+    }
+    .rightRewardsSection1 img {
+        width: 280px;
+    }
+    .leftRewardsSection {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width:280px) {
+    .rightRewardsSection img {
+        width: 241px;
+    }
+    .rightRewardsSection1 img {
+        width: 241px;
+    }
+    .leftRewardsSection {
+        width: 256px;
     }
 }

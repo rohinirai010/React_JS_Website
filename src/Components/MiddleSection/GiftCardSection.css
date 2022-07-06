@@ -37,13 +37,60 @@
     color: #667085;
 }
 
-@media (max-width:540px) {
+@media only screen and (max-width:1180px) {
     .GiftCardsContent img {
-        height: 230px;
+        width: 332px;
     }
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width:1155px) {
+    .GiftCardsContent img {
+        width: 285px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .GiftCardsContent img {
+        width: 308px;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+    .GiftCardsContent img {
+        width: 275px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .GiftCard {
+        gap: 36px;
+        justify-content: center;
+    }
+    .GiftCardsContent img {
+        width: 303px;
+        height: 195px;
+    }
+    .GiftCardsContent h2 {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 912px) {
+    .GiftCardsContent img {
+        width: 248px;
+    }
+}
+
+@media only screen and (max-width:820px) {
+    .GiftCard {
+        gap: 32px;
+    }
+    .GiftCardsContent img {
+        width: 214px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
     .GiftCard {
         display: flex;
         flex-direction: column;
@@ -60,16 +107,8 @@
     }
 }
 
-@media (min-width: 769px) and (max-width: 1023px) {
-    .GiftCard {
-        gap: 36px;
-        justify-content: center;
-    }
+@media only screen and (max-width:540px) {
     .GiftCardsContent img {
-        width: 303px;
-        height: 195px;
-    }
-    .GiftCardsContent h2 {
-        font-size: 1.3rem;
+        height: 230px;
     }
 }
