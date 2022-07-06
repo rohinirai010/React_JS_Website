@@ -116,8 +116,13 @@
 @media only screen and (max-width: 768px) {
     .GiftCard {
         padding: 0;
+        margin-top: 55px;
     }
     .GiftCardsContent {
-        width: 226px;
+        width: 450px;
+        margin-bottom: 30px;
+    }
+    .GiftCardsContent img {
+        width: 95%;
     }
 }

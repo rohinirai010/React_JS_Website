@@ -211,6 +211,17 @@ form {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 154px;
+        margin-bottom: 122px;
+    }
+    .card {
+        width: 460px;
+    }
+    .card-image img {
+        width: 460px;
+    }
+    .card-image1 img {
+        width: 460px;
     }
 }
 

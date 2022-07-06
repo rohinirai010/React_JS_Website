@@ -129,13 +129,13 @@ button {
         margin-top: 40px;
     }
     .MidSecTitle {
-        padding-left: 5px;
         text-align: center;
-        margin-bottom: -13px;
+        margin-bottom: 2px;
+        font-size: 28px;
     }
     .midBtn {
-        width: 20%;
-        height: 44px;
+        width: 22%;
+        height: 45px;
     }
     .midBtn img {
         width: 20%;

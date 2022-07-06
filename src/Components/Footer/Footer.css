@@ -186,7 +186,11 @@
         line-height: 2.2rem;
     }
     .footer-container h2 {
-        line-height: 10px;
+        color: #ff6000;
+        margin-bottom: -18px;
+    }
+    .footer-container ul {
+        margin-top: 5px;
     }
     .footer-left {
         width: 100%;
@@ -194,18 +198,17 @@
     }
     .footer-right {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-direction: row;
+        gap: 0;
+        justify-content: space-around;
         width: 100%;
-        align-items: flex-start;
-        text-indent: 74px;
-        gap: 4rem;
     }
     .footer-bottom {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        text-indent: 77px;
+        text-indent: 27px;
+        line-height: 0;
     }
     .footer-bottom p {
         margin: 0 auto;
