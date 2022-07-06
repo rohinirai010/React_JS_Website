@@ -273,6 +273,45 @@ form {
         width: 253px;
     }
     .FrameContent {
-        width: 262px;
+        width: 252px;
+    }
+    .btnDemo {
+        height: 35px;
+        margin-top: 16px;
+        width: 126px;
+        padding: 6px;
+    }
+    .FrameContent {
+        margin-top: -146px;
+    }
+    .FrameContent h2 {
+        font-size: 20px;
+    }
+    .FrameContent p {
+        font-size: 9px;
+    }
+    .FrameContentRight h2 {
+        font-size: 17px;
+    }
+    .FrameContentRight {
+        margin-top: -190px;
+    }
+    .FrameContentRight p {
+        font-size: 12px;
+        margin-top: 1px;
+    }
+    .emailInput {
+        border-radius: 10px;
+        height: 28px;
+        width: 85%;
+        border-radius: 10px;
+        margin-top: 18px;
+    }
+    .submitInput {
+        border-radius: 5px;
+        margin-left: -81px;
+        height: 20px;
+        width: 75px;
+        margin-top: 18px;
     }
 }

@@ -169,3 +169,25 @@ button {
         width: 23%;
     }
 }
+
+@media only screen and (max-width: 280px) {
+    .MidSecTitle {
+        font-size: 20px;
+    }
+    .MidSecTitle span {
+        font-size: 14px;
+    }
+    .midBtn {
+        height: 32px;
+        width: 40%;
+    }
+    .midBtn img {
+        width: 22%;
+    }
+    .midBtn h3 {
+        font-size: 10px;
+    }
+    .MidSec {
+        margin-bottom: 35px;
+    }
+}

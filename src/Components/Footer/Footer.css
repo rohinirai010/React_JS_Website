@@ -214,3 +214,16 @@
         padding: 18px;
     }
 }
+
+@media only screen and (max-width: 280px) {
+    .footer-right {
+        text-indent: 27px;
+        gap: 3rem;
+    }
+    .footer-bottom {
+        text-indent: 27px;
+    }
+    .footer-bottom li {
+        line-height: 0;
+    }
+}

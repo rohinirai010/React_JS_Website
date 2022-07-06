@@ -112,3 +112,12 @@
         height: 230px;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .GiftCard {
+        padding: 0;
+    }
+    .GiftCardsContent {
+        width: 226px;
+    }
+}

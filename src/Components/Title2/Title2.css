@@ -38,3 +38,12 @@
         padding: 8px 29px;
     }
 }
+
+@media only screen and (max-width: 280px) {
+    .title2Section {
+        margin-top: 90px;
+    }
+    .title2Section h2 {
+        font-size: 20px;
+    }
+}
