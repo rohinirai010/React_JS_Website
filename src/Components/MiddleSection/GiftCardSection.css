@@ -101,11 +101,11 @@
         margin-top: 55px;
     }
     .GiftCardsContent {
-        width: 100%;
-        margin-bottom: 30px;
+        width: 60%;
+        margin-bottom: 10px;
     }
     .GiftCardsContent img {
-        width: 95%;
+        width: 100%;
         margin: 0 auto;
     }
 }

@@ -31,7 +31,8 @@
     .rewardsSectionSecurity {
         display: flex;
         flex-direction: column;
-        gap: 130px;
+        gap: 100px;
+        margin-top: 90px;
     }
 }
 

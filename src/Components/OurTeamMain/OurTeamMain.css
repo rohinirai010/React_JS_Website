@@ -65,10 +65,14 @@
     .ourTeamSectionTop {
         display: flex;
         flex-direction: column;
+        gap: 55px;
+        margin-bottom: 55px;
+        padding: 0;
     }
     .ourTeamSectionBottom {
         display: flex;
         flex-direction: column;
+        gap: 55px;
     }
 }
 

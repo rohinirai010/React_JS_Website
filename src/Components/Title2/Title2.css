@@ -30,6 +30,12 @@
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .title2Section {
+        margin-top: 125px;
+    }
+}
+
 @media only screen and (max-width:540px) {
     .title2Section h2 {
         font-size: 22px;
