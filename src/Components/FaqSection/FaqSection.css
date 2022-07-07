@@ -114,6 +114,15 @@
     }
 }
 
+@media only screen and (max-width:412px) {
+    .FaqTitle h2 {
+        letter-spacing: 1px;
+    }
+    .FaqTitle p {
+        font-size: 13px;
+    }
+}
+
 @media only screen and (max-width:280px) {
     .FaqTitle h2 {
         font-size: 21.1px;

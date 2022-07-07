@@ -27,6 +27,20 @@
     }
 }
 
+@media only screen and (max-width:912px) {
+    .rightRewardsSectionSecurity img {
+        width: 390px;
+    }
+}
+
+@media only screen and (max-width:820px) {
+    .rightRewardsSectionSecurity img {
+        height: 243px;
+        margin-top: 79px;
+        width: 335px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .rewardsSectionSecurity {
         display: flex;
