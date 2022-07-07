@@ -17,6 +17,12 @@
         padding: 14px 63px;
     }
     
+    @media only screen and (max-width:912px) {
+        .clientSection img {
+            padding: 24px 28px;
+        }
+    }
+    
     @media only screen and (max-width: 768px) {
         .clientSection {
             display: flex;

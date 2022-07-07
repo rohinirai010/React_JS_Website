@@ -11,6 +11,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .GiftCardsContent img {
@@ -76,8 +77,14 @@
 }
 
 @media only screen and (max-width: 912px) {
+    .GiftCard {
+        padding: 4rem 2rem;
+    }
     .GiftCardsContent img {
         width: 248px;
+    }
+    .GiftCardsContent p {
+        font-size: 13.5px;
     }
 }
 
@@ -116,4 +123,12 @@
     }
 }
 
-@media only screen and (max-width: 280px) {}
+@media only screen and (max-width: 280px) {
+    .GiftCardsContent {
+        height: 247px;
+        width: 80%;
+    }
+    .GiftCardsContent p {
+        font-size: 12px;
+    }
+}

@@ -51,7 +51,16 @@
 
 @media only screen and (max-width: 912px) {
     .OurTeamMainSection .MidSec {
-        gap: 300px;
+        gap: 390px;
+    }
+    .ourTeamSectionTop {
+        gap: 40px;
+        width: 90%;
+        padding-bottom: 40px;
+    }
+    .ourTeamSectionBottom {
+        gap: 40px;
+        width: 90%;
     }
 }
 
@@ -79,7 +88,7 @@
 @media only screen and (max-width:540px) {
     .ourTeamSectionTop {
         gap: 55px;
-        padding-bottom: 55px;
+        padding-bottom: 0;
     }
     .ourTeamSectionBottom {
         gap: 55px;
@@ -87,6 +96,9 @@
 }
 
 @media only screen and (max-width:280px) {
+    .ourTeamSectionTop {
+        padding-bottom: 0;
+    }
     .OurTeamMainSection .MidSec {
         gap: 20px;
         margin-bottom: 62px;

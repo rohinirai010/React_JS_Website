@@ -113,6 +113,19 @@ button {
     }
 }
 
+@media only screen and (max-width:912px) {
+    .MidSec {
+        gap: 368px;
+    }
+    .midBtn {
+        width: 14%;
+        margin-top: 0;
+    }
+    .midBtn h3 {
+        font-size: 13px;
+    }
+}
+
 @media only screen and (max-width: 820px) {
     .MidSec {
         gap: 267px;
@@ -142,9 +155,10 @@ button {
     }
     .midBtn a {
         gap: 6px;
+        width: 115px;
     }
     .midBtn h3 {
-        font-size: 15px;
+        font-size: 14px;
     }
 }
 
@@ -163,10 +177,19 @@ button {
         height: 38px;
     }
     .midBtn h3 {
-        font-size: 12px;
+        font-size: 10px;
     }
     .midBtn img {
         width: 23%;
+    }
+}
+
+@media only screen and (max-width:448px) {
+    .midBtn {
+        width: 32%;
+    }
+    .midBtn h3 {
+        font-size: 11px;
     }
 }
 
