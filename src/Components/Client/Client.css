@@ -41,6 +41,12 @@
         }
     }
     
+    @media only screen and (max-width:448px) {
+        .clientSection img {
+            padding: 19px 9px;
+        }
+    }
+    
     @media only screen and (max-width: 280px) {
         .clientSection img {
             padding: 27px 3px;

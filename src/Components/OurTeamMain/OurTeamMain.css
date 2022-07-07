@@ -53,14 +53,37 @@
     .OurTeamMainSection .MidSec {
         gap: 390px;
     }
+    .OurTeamMainSection {
+        padding: 0 30px;
+    }
     .ourTeamSectionTop {
         gap: 40px;
-        width: 90%;
         padding-bottom: 40px;
     }
     .ourTeamSectionBottom {
         gap: 40px;
-        width: 90%;
+    }
+    .midBtn {
+        padding: 0;
+        height: 43px;
+        width: 148px;
+    }
+    .midBtn a {
+        gap: 1px;
+    }
+    .midBtn h3 {
+        margin-top: 3px;
+        margin-left: 8px;
+        font-size: 12px;
+    }
+    .midBtn .btnDemoImage {
+        height: 20px;
+    }
+}
+
+@media only screen and (max-width:820px) {
+    .OurTeamMainSection .MidSec {
+        gap: 305px;
     }
 }
 
@@ -92,6 +115,22 @@
     }
     .ourTeamSectionBottom {
         gap: 55px;
+    }
+    .midBtn {
+        padding: 0;
+        height: 43px;
+        width: 148px;
+    }
+    .midBtn a {
+        gap: 1px;
+    }
+    .midBtn h3 {
+        margin-top: 3px;
+        margin-left: 8px;
+        font-size: 12px;
+    }
+    .midBtn .btnDemoImage {
+        height: 20px;
     }
 }
 

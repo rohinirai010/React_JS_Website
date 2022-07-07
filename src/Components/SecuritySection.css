@@ -44,6 +44,14 @@
     }
 }
 
+@media only screen and (max-width:448px) {
+    .rightRewardsSectionSecurity img {
+        width: 380px;
+        height: 230px;
+        padding: 0;
+    }
+}
+
 @media only screen and (max-width:280px) {
     .rewardsSectionSecurity {
         margin-top: 60px;

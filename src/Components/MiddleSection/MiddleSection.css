@@ -115,20 +115,23 @@ button {
 
 @media only screen and (max-width:912px) {
     .MidSec {
-        gap: 368px;
-    }
-    .midBtn {
-        width: 14%;
-        margin-top: 0;
-    }
-    .midBtn h3 {
-        font-size: 13px;
+        gap: 364px;
     }
 }
 
 @media only screen and (max-width: 820px) {
     .MidSec {
-        gap: 267px;
+        gap: 292px;
+    }
+    .midBtn {
+        width: 15%;
+        margin-top: 0;
+    }
+    .midBtn h3 {
+        font-size: 11px;
+    }
+    .midBtn img {
+        width: 22px;
     }
 }
 

@@ -152,6 +152,12 @@ h4 {
     }
 }
 
+@media only screen and (max-width:448px) {
+    .mainImage {
+        height: 295px;
+    }
+}
+
 @media only screen and (max-width: 280px) {
     .TitleSection h2 {
         font-size: 19px;
