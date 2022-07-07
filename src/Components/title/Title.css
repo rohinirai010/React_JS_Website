@@ -164,11 +164,18 @@ h4 {
     }
     .btn {
         width: 142px;
+        padding: 0;
+        height: 40px;
+    }
+    .btn a {
+        align-items: center;
+        justify-content: center;
+        gap: 0;
     }
     .btn img {
         width: 22%;
     }
     .btn h3 {
-        font-size: 9px;
+        font-size: 12px;
     }
 }
