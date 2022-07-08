@@ -43,6 +43,38 @@
     }
 }
 
+@media only screen and (max-width:1024px) {
+    .OurTeamMainSection .MidSec {
+        gap: 470px;
+    }
+    .OurTeamMainSection {
+        padding: 0 45px;
+    }
+    .ourTeamSectionTop {
+        gap: 40px;
+        padding-bottom: 40px;
+    }
+    .ourTeamSectionBottom {
+        gap: 40px;
+    }
+    .midBtn {
+        padding: 0;
+        height: 43px;
+        width: 148px;
+    }
+    .midBtn a {
+        gap: 1px;
+    }
+    .midBtn h3 {
+        margin-top: 3px;
+        margin-left: 8px;
+        font-size: 12px;
+    }
+    .midBtn img {
+        height: 20px;
+    }
+}
+
 @media only screen and (max-width: 995px) {
     .OurTeamMainSection .MidSec {
         gap: 300px;

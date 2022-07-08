@@ -164,19 +164,19 @@
     
     @media only screen and (max-width: 1024px) {
         .container {
-            gap: 0;
+            gap: 40px;
         }
         .card {
-            width: 461px;
-            height: 244px;
+            width: 427px;
+            height: 264px;
             margin: 0;
         }
         .card-image img {
-            width: 430px;
+            width: 427px;
         }
         .card-image1 img {
-            width: 443px;
-            margin-top: -57px;
+            width: 427px;
+            margin-top: -46px;
         }
         .FrameContent {
             margin-top: -208px;
@@ -271,11 +271,11 @@
         }
         .card-image img {
             width: 460px;
-            height: 350px;
+            height: 328px;
         }
         .card-image1 img {
             width: 460px;
-            height: 350px;
+            height: 370px;
         }
         .FrameContent {
             margin-top: -232px;
@@ -290,7 +290,8 @@
             font-size: 15px;
         }
         .btnDemo .btnDemoImage {
-            width: 32px;
+            width: 30px;
+            height: 27px;
         }
     }
     

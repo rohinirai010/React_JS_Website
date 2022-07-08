@@ -100,7 +100,7 @@ button {
 
 @media only screen and (max-width: 1024px) {
     .MidSec {
-        gap: 395px;
+        gap: 455px;
     }
     .MidSecTitle {
         font-size: 22px;
@@ -109,7 +109,14 @@ button {
         font-size: 16px;
     }
     .midBtn {
-        width: 16%;
+        width: 15%;
+        margin-top: 0;
+    }
+    .midBtn h3 {
+        font-size: 11px;
+    }
+    .midBtn img {
+        width: 22px;
     }
 }
 
