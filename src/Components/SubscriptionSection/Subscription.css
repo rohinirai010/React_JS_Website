@@ -360,7 +360,7 @@
     
     @media only screen and (max-width:407px) {
         .container {
-            gap: 75px;
+            gap: 145px;
         }
         .card {
             width: 325px;
@@ -374,6 +374,9 @@
     }
     
     @media only screen and (max-width:280px) {
+        .container {
+            gap: 145px;
+        }
         .card {
             width: 253px;
             height: 165px;
