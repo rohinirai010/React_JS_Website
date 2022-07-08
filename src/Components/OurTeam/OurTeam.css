@@ -54,7 +54,7 @@
 
 @media only screen and (max-width:280px) {
     .OurTeamCard {
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
     }
 }

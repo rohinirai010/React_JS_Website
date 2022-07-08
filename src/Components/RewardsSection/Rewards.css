@@ -243,7 +243,10 @@
     }
     .leftRewardsSection {
         width: 380px;
-        padding: 10px 2px;
+        padding: 0;
+    }
+    .rewardsSection1 .leftRewardsSection {
+        padding: 0;
     }
 }
 
@@ -255,7 +258,7 @@
         width: 314px;
     }
     .leftRewardsSection {
-        width: 370px;
+        width: 300px;
     }
 }
 
@@ -281,10 +284,19 @@
     .rewardsSection {
         margin-top: 30px;
     }
+    .rewardsSection1 {
+        margin-top: 35px;
+        gap: 20px;
+    }
+    .rewardsSection1 .leftRewardsSection {
+        padding-right: 10px;
+    }
     .rightRewardsSection img {
         width: 218px;
         height: 140px;
         margin-bottom: 30px;
+        padding: 0;
+        margin-top: -29px;
     }
     .rightRewardsSection1 img {
         width: 241px;
